@@ -89,3 +89,9 @@ pip install -r requirements.txt
 ## Acknowledgments
 - [Hate Speech and Offensive Language Dataset](https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data)
 - [Hugging Face Transformers](https://huggingface.co/transformers/) for providing pretrained DistilBERT models and utilities for training.
+
+## References
+
+1. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*. arXiv preprint arXiv:1810.04805, 2018.
+2. Thomas G. Dietterich. *Ensemble Methods in Machine Learning*. In International Workshop on Multiple Classifier Systems, pages 1–15, 2000.
+3. Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah A. Smith. *The Risk of Racial Bias in Hate Speech Detection*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 1668–1678, 2019.
