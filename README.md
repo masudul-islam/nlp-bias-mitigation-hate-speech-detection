@@ -9,7 +9,7 @@ Our approach involves fine-tuning a BERT-based model with class weighting to mit
 The prevalence of hate speech and harmful content on social media platforms has necessitated effective and automated detection systems. However, existing models often suffer from biases, leading to unfair classifications and reduced accuracy for minority classes. This project focuses on developing a more accurate and fair hate speech detection system by leveraging advanced **ensemble learning techniques** and **bias mitigation strategies**.
 
 ## Dataset
-We used the **Hate Speech and Offensive Language Dataset** [https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data](https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data, which contains 24,783 tweets labeled into the following categories:
+We used the **Hate Speech and Offensive Language Dataset** ([link to dataset](https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data)), which contains 24,783 tweets labeled into the following categories:
 - **Hate Speech** (class 2)
 - **Offensive Language** (class 1)
 - **Neutral Content** (class 0)
@@ -63,7 +63,7 @@ To run the project, clone the repository and install the dependencies listed in 
 git clone https://github.com/masudul-islam/nlp-bias-mitigation-hate-speech-detection.git
 cd nlp-bias-mitigation-hate-speech-detection
 pip install -r requirements.txt
-
+```
 # Project Structure
 
 - notebooks/: Jupyter Notebooks containing the training and evaluation code.
@@ -75,3 +75,7 @@ pip install -r requirements.txt
 - Training: Use the notebooks or Python scripts in the scripts/ folder to train the models.
 - Evaluation: Evaluation metrics, including accuracy, precision, recall, F1-score, and ROC-AUC, are calculated to assess the model's performance.
 - Meta-Model Performance: The results are visualized to compare different ensemble approaches.
+
+## Acknowledgments
+- [Hate Speech and Offensive Language Dataset](https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data)
+- [Hugging Face Transformers](https://huggingface.co/transformers/) for providing pretrained DistilBERT models and utilities for training.
