@@ -81,6 +81,7 @@ pip install -r requirements.txt
 - scripts/: Python scripts to train and evaluate models.
 - requirements.txt: Lists the dependencies required to run the project.
 - README.md
+- images
 
 # Usage
 - Training: Use the notebooks or Python scripts in the scripts/ folder to train the models.
