@@ -10,9 +10,10 @@ The hate speech and harmful content on social media platforms has necessitated e
 
 ## Dataset
 We used the **Hate Speech and Offensive Language Dataset** ([link to dataset](https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data)), which contains 24,783 tweets labeled into the following categories:
-- **Hate Speech** (class 2)
-- **Offensive Language** (class 1)
+
 - **Neutral Content** (class 0)
+- **Offensive Language** (class 1)
+- **Hate Speech** (class 2)
 
 ## Technical Approach
 Our project consists of the following main steps:
