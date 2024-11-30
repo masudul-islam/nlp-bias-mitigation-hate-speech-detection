@@ -6,7 +6,7 @@ This project aims to enhance the accuracy and fairness of hate speech detection 
 Our approach involves fine-tuning a BERT-based model with class weighting to mitigate bias and employing ensemble methods by combining **BERT**, **LSTM**, and **CNN** models to improve classification robustness and performance. The ensemble modeling uses **majority voting** and meta-modeling with **Gradient Boosting** and **Logistic Regression** to enhance the final predictions.
 
 ## Motivation
-The prevalence of hate speech and harmful content on social media platforms has necessitated effective and automated detection systems. However, existing models often suffer from biases, leading to unfair classifications and reduced accuracy for minority classes. This project focuses on developing a more accurate and fair hate speech detection system by leveraging advanced **ensemble learning techniques** and **bias mitigation strategies**.
+The hate speech and harmful content on social media platforms has necessitated effective and automated detection systems. However, existing models often suffer from biases, leading to unfair classifications and reduced accuracy for minority classes. This project focuses on developing a more accurate and fair hate speech detection system by leveraging advanced **ensemble learning techniques** and **bias mitigation strategies**.
 
 ## Dataset
 We used the **Hate Speech and Offensive Language Dataset** ([link to dataset](https://github.com/t-davidson/hate-speech-and-offensive-language/tree/master/data)), which contains 24,783 tweets labeled into the following categories:
@@ -43,7 +43,17 @@ Our project consists of the following main steps:
 - **ROC-AUC Scores** for Gradient Boosting and Logistic Regression indicated effective class separation, suggesting that both ensemble methods are well-suited for this task.
 - **Majority Voting** also demonstrated robust performance by combining diverse perspectives from each base model.
 
-![Meta-Model Performance Comparison](compare_mete_model_performance.png)
+### Meta-Model Performance Comparison
+The following bar chart summarizes the performance of Gradient Boosting and Logistic Regression meta-models, comparing their accuracy, precision, recall, and F1-score metrics.
+
+![Meta-Model Performance Comparison](./images/compare_mete_model_performance.png)
+
+### ROC Curves
+The Receiver Operating Characteristic (ROC) curves for both the Gradient Boosting and Logistic Regression meta-models show the true positive rate versus false positive rate for each class. These graphs provide insights into the models' performance in distinguishing between the different categories.
+
+![ROC Curve for Gradient Boosting Meta-Model](./images/roc_gb.png)
+
+![ROC Curve for Logistic Regression Meta-Model](./images/roc_lr.png)
 
 ## Key Findings
 - **Ensemble Effectiveness**: Both **Gradient Boosting** and **Logistic Regression** demonstrated effective ensemble capabilities, with Logistic Regression slightly outperforming in terms of accuracy.
