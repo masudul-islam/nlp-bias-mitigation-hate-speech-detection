@@ -80,8 +80,9 @@ pip install -r requirements.txt
 - notebooks/: Jupyter Notebooks containing the training and evaluation code.
 - scripts/: Python scripts to train and evaluate models.
 - requirements.txt: Lists the dependencies required to run the project.
-- README.md
-- images
+- images: Visualization of all graphs.
+- README.md: Project Documentation. 
+
 
 # Usage
 - Training: Use the notebooks or Python scripts in the scripts/ folder to train the models.
