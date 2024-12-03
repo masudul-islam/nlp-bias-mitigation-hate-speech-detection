@@ -65,7 +65,6 @@ The Receiver Operating Characteristic (ROC) curves for both the Gradient Boostin
 - **Overfitting Mitigation**: Use additional regularization techniques, such as **dropout** or **early stopping**, to improve model generalization.
 - **Data Augmentation**: Address class imbalances using **data augmentation** or **oversampling** methods to improve training quality.
 - **Hyperparameter Tuning**: Although computationally expensive, exploring more **robust hyperparameter configurations** can help achieve better model performance. Given resource constraints, we plan to revisit this when resources are available.
-- **Model Interpretability**: Implement methods for understanding model predictions, ensuring transparency and accountability in hate speech detection.
 
 ## Installation
 To run the project, clone the repository and install the dependencies listed in `requirements.txt`:
