@@ -73,6 +73,8 @@ To run the project, clone the repository and install the dependencies listed in 
 git clone https://github.com/masudul-islam/nlp-bias-mitigation-hate-speech-detection.git
 cd nlp-bias-mitigation-hate-speech-detection
 pip install -r requirements.txt
+python gradient_boosting.py
+python logistic_regression.py
 ```
 # Project Structure
 
